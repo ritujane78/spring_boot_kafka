@@ -1,9 +1,7 @@
-package com.jane.kafka.api;
+package com.jane.kafka.api.server;
 
 import com.jane.kafka.api.request.DiscountRequest;
-import com.jane.kafka.api.request.PromotionRequest;
 import com.jane.kafka.command.service.DiscountService;
-import com.jane.kafka.command.service.PromotionService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

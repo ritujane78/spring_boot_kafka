@@ -12,9 +12,9 @@ import org.apache.kafka.streams.state.Stores;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class FeedbackRatingTwoStream {
-    @Autowired
+//    @Autowired
     void kstreamFeedbackRating(StreamsBuilder builder){
         var feedbackRatingStoreName = "feedbackRatingStore";
         var storeSupplier = Stores.inMemoryKeyValueStore(feedbackRatingStoreName);

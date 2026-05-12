@@ -1,4 +1,4 @@
-package com.jane.kafka.api;
+package com.jane.kafka.api.server;
 
 import com.jane.kafka.api.request.PromotionRequest;
 import com.jane.kafka.command.service.PromotionService;

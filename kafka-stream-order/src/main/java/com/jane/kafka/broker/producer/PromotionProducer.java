@@ -1,4 +1,4 @@
-package com.jane.kafka.producer;
+package com.jane.kafka.broker.producer;
 
 import com.jane.kafka.broker.message.PromotionMessage;
 import org.slf4j.Logger;
@@ -6,9 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.TimeoutException;
 
 @Service
 public class PromotionProducer {

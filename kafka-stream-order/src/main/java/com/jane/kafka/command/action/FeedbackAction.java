@@ -3,7 +3,7 @@ package com.jane.kafka.command.action;
 import java.time.OffsetDateTime;
 import java.util.concurrent.ThreadLocalRandom;
 
-import com.jane.kafka.producer.FeedbackProducer;
+import com.jane.kafka.broker.producer.FeedbackProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

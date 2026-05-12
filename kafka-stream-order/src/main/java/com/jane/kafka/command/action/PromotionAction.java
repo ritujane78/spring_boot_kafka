@@ -2,7 +2,7 @@ package com.jane.kafka.command.action;
 
 import com.jane.kafka.api.request.PromotionRequest;
 import com.jane.kafka.broker.message.PromotionMessage;
-import com.jane.kafka.producer.PromotionProducer;
+import com.jane.kafka.broker.producer.PromotionProducer;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -2,10 +2,9 @@ package com.jane.kafka.command.action;
 
 import com.jane.kafka.api.request.OrderRequest;
 import com.jane.kafka.broker.message.OrderMessage;
-import com.jane.kafka.command.service.OrderService;
 import com.jane.kafka.entity.Order;
 import com.jane.kafka.entity.OrderItem;
-import com.jane.kafka.producer.OrderProducer;
+import com.jane.kafka.broker.producer.OrderProducer;
 import com.jane.kafka.repository.OrderItemRepository;
 import com.jane.kafka.repository.OrderRepository;
 import org.apache.commons.lang3.RandomStringUtils;

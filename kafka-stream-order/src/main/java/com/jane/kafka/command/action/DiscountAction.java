@@ -2,7 +2,7 @@ package com.jane.kafka.command.action;
 
 import com.jane.kafka.api.request.DiscountRequest;
 import com.jane.kafka.broker.message.DiscountMessage;
-import com.jane.kafka.producer.DiscountProducer;
+import com.jane.kafka.broker.producer.DiscountProducer;
 import org.springframework.stereotype.Component;
 
 @Component

@@ -1,4 +1,4 @@
-package com.jane.kafka.producer;
+package com.jane.kafka.broker.producer;
 
 import com.jane.kafka.broker.message.OrderMessage;
 import org.apache.kafka.clients.producer.ProducerRecord;

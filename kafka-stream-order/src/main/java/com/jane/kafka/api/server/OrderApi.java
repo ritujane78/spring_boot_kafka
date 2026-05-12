@@ -1,4 +1,4 @@
-package com.jane.kafka.api;
+package com.jane.kafka.api.server;
 
 import com.jane.kafka.api.request.OrderRequest;
 import com.jane.kafka.api.response.OrderResponse;
@@ -9,8 +9,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.awt.*;
 
 @RestController
 @RequestMapping("/api/order")

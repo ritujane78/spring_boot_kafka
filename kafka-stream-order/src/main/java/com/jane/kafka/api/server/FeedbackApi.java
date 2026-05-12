@@ -1,4 +1,4 @@
-package com.jane.kafka.api;
+package com.jane.kafka.api.server;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
