@@ -6,5 +6,5 @@ The data consumed from the Kafka topics is produced and stored through REST APIs
 
 This project focuses on stream processing operations such as filtering, mapping, branching, aggregation, transformation, and topic-to-topic data flow using Kafka Streams.
 
-With docker, build and run a docker container for this project.
+With docker, build and run a kafka container for this project.
 
