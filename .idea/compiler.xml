@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.jane.kafka.kafka-stream-sample" options="-parameters" />
+      <module name="com.jane.kafka.kafka-stream-sample.main" options="-parameters" />
+      <module name="com.jane.kafka.kafka-stream-sample.test" options="-parameters" />
+      <module name="kafka-ms-order" options="-parameters" />
+      <module name="kafka-ms-order.main" options="-parameters" />
+      <module name="kafka-ms-order.test" options="-parameters" />
+      <module name="kafka-ms-pattern" options="-parameters" />
+      <module name="kafka-ms-pattern.main" options="-parameters" />
+      <module name="kafka-ms-pattern.test" options="-parameters" />
+      <module name="kafka-ms-storage" options="-parameters" />
+      <module name="kafka-ms-storage.main" options="-parameters" />
+      <module name="kafka-ms-storage.test" options="-parameters" />
+    </option>
+  </component>
+</project>
