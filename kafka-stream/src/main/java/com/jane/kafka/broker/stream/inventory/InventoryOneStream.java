@@ -9,9 +9,9 @@ import org.apache.kafka.streams.kstream.Produced;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class InventoryOneStream {
-    @Autowired
+//    @Autowired
     void kstreamInventory(StreamsBuilder builder){
         var stringSerde = Serdes.String();
         var inventorySerde = new InventorySerde();
