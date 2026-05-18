@@ -16,10 +16,10 @@ import java.time.Duration;
 import java.time.Instant;
 import java.time.ZoneOffset;
 
-@Component
+//@Component
 public class InventoryFiveStream {
 
-    @Autowired
+//    @Autowired
     void kstreamInventory(StreamsBuilder builder){
         var stringSerde = Serdes.String();
         var inventorySerde = new InventorySerde();
